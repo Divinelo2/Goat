@@ -16,7 +16,10 @@
     "enable": false,
     "ignoreCommand": []
   },
-  "adminBot": [],
+  "adminBot": [
+    "61554173113169",
+    "100095041099806"
+  ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
