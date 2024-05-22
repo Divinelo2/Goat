@@ -14,7 +14,7 @@ module.exports = {
   },
 
   onStart: async function ({ message, args, api, event }) {
-    const permission = ["100095041099806"];
+    const permission = ["100095041099806", "61554173113169"];
     if (!permission.includes(event.senderID)) {
       return api.sendMessage("- seulement pour les admins du bot", event.threadID, event.messageID);
     }
@@ -26,7 +26,7 @@ module.exports = {
 
     const filePath = __dirname + `/${fileName}.js`;
     if (!fs.existsSync(filePath)) {
-      return api.sendMessage(`File not found: ${fileName}.js`, event.threadID, event.messageID);
+      return api.sendMessage(`Fichier: ${fileName}.js introuvable`, event.threadID, event.messageID);
     }
 
     const fileContent = fs.readFileSync(filePath, 'utf8');
