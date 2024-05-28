@@ -17,16 +17,16 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "61554173113169",
-    "100095041099806"
+    "61555835579977",
+    "61558854156141"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": ""
   },
-  "nickNameBot": "[ > ]•𝗚𝗼𝗮𝘁𝗕𝗼𝘁",
-  "prefix": ">",
+  "nickNameBot": "[ + ]•DAVE v3🙂🍿",
+  "prefix": "+",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -34,7 +34,7 @@
     "autoRefreshThreadInfoFirstTime": true,
     "notes": ""
   },
-  "timeZone": "Africa/Ouagadougou",
+  "timeZone": "Africa/Lagos",
   "credentials": {
     "gmailAccount": {
       "email": "cliffbotbeluga@gmail.com",
